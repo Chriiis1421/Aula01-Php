@@ -1,11 +1,13 @@
 <?php
 
     // include_once 'file.php';
+    include_once("funcoes.php");
 
     if( !empty($_POST['form_submit']) ) {
 
         // echo "<script> window.location.href = 'index.php'; </script>";
         header("Location: index.php");
+        insertTable();
     }
 
 ?>
